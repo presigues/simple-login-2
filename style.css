@@ -1,4 +1,4 @@
-@font-face { font-family: pixel; src: url("NeutronsDemoRegular.ttf"); }
+@font-face { font-family: pixel; src: url("Azonix.ttf"); }
 
 body{
     display: flex;
@@ -25,7 +25,10 @@ body{
 #logintitle{
     font-family: pixel;
     color: white;
-    font-size: 60px;
+    font-size: 30px;
+    position: absolute;
+    left: 190px;
+    
 }
 #user{
     font-family: pixel;
@@ -40,11 +43,29 @@ body{
 #userinput{
     font-family: pixel;
     color: white;
+    background-color: transparent;
+    border-radius: 15px;
+    margin-left: 20px;
+    position: absolute;
+    top: 200px;
+    border: 2px solid white;
+    width: 300px;
+    height: 25px;
  
 }
 #passinput{
     font-family: pixel;
     color: white;
+    background-color: transparent;
+    border-radius: 15px;
+    background-color: transparent;
+    border-radius: 15px;
+    margin-left: 20px;
+    position: absolute;
+    top: 400px;
+    border: 2px solid white;
+    width: 300px;
+    height: 25px;
  
 }
 #googlelogin{
@@ -62,6 +83,12 @@ body{
     background-color: transparent;
     border: 2px solid white;
     border-radius: 15px;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
