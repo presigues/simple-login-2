@@ -1,0 +1,68 @@
+@font-face { font-family: pixel; src: url("NeutronsDemoRegular.ttf"); }
+
+body{
+    display: flex;
+    background-color: white;
+    background-image: linear-gradient(45deg, #16002b, #28004e, #5300a0, #3f00b4);
+    background-size: 400%;
+    animation: bg-animation 12s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+#logintitle{
+    font-family: pixel;
+    color: white;
+    font-size: 60px;
+}
+#logintitle{
+    font-family: pixel;
+    color: white;
+    font-size: 60px;
+}
+#user{
+    font-family: pixel;
+    color: white;
+ 
+}
+#pass{
+    font-family: pixel;
+    color: white;
+ 
+}
+#userinput{
+    font-family: pixel;
+    color: white;
+ 
+}
+#passinput{
+    font-family: pixel;
+    color: white;
+ 
+}
+#googlelogin{
+    font-family: pixel;
+    color: white;
+ 
+}
+#gitlogin{
+    font-family: pixel;
+    color: white;
+ 
+}
+
+#loginpanel{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+
+
