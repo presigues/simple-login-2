@@ -33,11 +33,19 @@ body{
 #user{
     font-family: pixel;
     color: white;
+    margin-left: 20px;
+    position: absolute;
+    top: 150px;
  
 }
 #pass{
     font-family: pixel;
     color: white;
+    margin-left: 20px;
+    position: absolute;
+    top: 250px;
+ 
+ 
  
 }
 #userinput{
@@ -62,7 +70,7 @@ body{
     border-radius: 15px;
     margin-left: 20px;
     position: absolute;
-    top: 400px;
+    top: 300px;
     border: 2px solid white;
     width: 300px;
     height: 25px;
@@ -71,11 +79,27 @@ body{
 #googlelogin{
     font-family: pixel;
     color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 400px;
+    margin-left: 20px;
  
 }
 #gitlogin{
     font-family: pixel;
     color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 450px;
+    margin-left: 20px;
  
 }
 
@@ -89,6 +113,16 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#signupbut{
+    font-family: pixel;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    position: absolute;
+    top: 600px;
+    
 }
 
 
