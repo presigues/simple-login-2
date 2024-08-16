@@ -2,6 +2,8 @@
 
 you can test it here : https://66be3ca79a4e0d0eb1aa67cf--euphonious-torrone-94dbe3.netlify.app
 
+https://github.com/user-attachments/assets/dfbd2c2d-f0fd-4a8d-9599-39a10874335f
+
 
 this is another simple ui design for a login / signup system, however it is currently not functional with a proper login system
 
